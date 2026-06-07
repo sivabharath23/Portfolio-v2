@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 
 const roles = [
-  'React.js Frontend Developer',
-  'Next.js Full-Stack Developer',
+  'React.js Developer',
+  'Mern Stack Developer',
+  'Full-Stack Developer',
   'TypeScript & Tailwind Expert',
+  'ERP & POS System Developer',
   'SaaS Application Builder',
 ]
 
@@ -58,7 +60,7 @@ export default function Hero() {
         </div>
 
         <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in-up delay-300">
-          A highly skilled React.js Frontend Developer specializing in building modern,
+          A highly skilled React.js Developer specializing in building modern,
           responsive, and scalable web applications with clean, maintainable code.
         </p>
 

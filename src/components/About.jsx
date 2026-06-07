@@ -8,34 +8,11 @@ export default function About() {
           <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full" />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          {/* Image */}
-          <div className="flex justify-center">
-            <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-indigo-500/30 animate-pulse-glow">
-                <img
-                  src="/profile.jpg"
-                  alt="Sivabharath S P"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.target.style.display = 'none'
-                    e.target.parentElement.style.background = 'linear-gradient(135deg, #4f46e5, #7c3aed)'
-                    e.target.parentElement.innerHTML = `
-                      <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:5rem;font-weight:bold;color:white;">
-                        SB
-                      </div>`
-                  }}
-                />
-              </div>
-              {/* Decorative corner */}
-              <div className="absolute -bottom-4 -right-4 w-64 h-64 md:w-80 md:h-80 border-2 border-indigo-500/20 rounded-2xl -z-10" />
-            </div>
-          </div>
-
+        <div className="grid md:grid-cols-1 gap-16 items-center">
           {/* Content */}
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">
-              React.js Frontend Developer
+              React.js Developer
             </h3>
             <p className="text-gray-400 leading-relaxed mb-6">
               I'm <span className="text-indigo-400 font-semibold">Sivabharath S P</span>, a passionate Frontend Developer
