@@ -1,3 +1,5 @@
+import resumePdf from '../assets/Sivabharath_React_Developer_Resume.pdf'
+
 export default function About() {
   return (
     <section id="about" className="py-24 px-6">
@@ -39,7 +41,7 @@ export default function About() {
             </div>
 
             <a
-              href="/resume.pdf"
+              href={resumePdf}
               download
               className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105"
             >
