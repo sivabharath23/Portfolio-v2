@@ -1,6 +1,20 @@
 const projects = [
   // ── REAL / FEATURED PROJECTS ──────────────────────────────────────────────
   {
+    title: 'TenM',
+    subtitle: 'Tenant Management Portal',
+    description:
+      'A comprehensive tenant management SaaS platform designed for property owners. Features custom dashboards, automated rent tracking, monthly water billing systems, advance ledger history, property & flat management, and a smart rent appraisal engine.',
+    tags: ['Next.js 16', 'TypeScript', 'Prisma ORM', 'PostgreSQL', 'Tailwind CSS v4', 'JWT Auth'],
+    github: 'https://github.com/sivabharath23/ten-M',
+    live: 'https://tenm-saas.vercel.app',
+    featured: true,
+    emoji: '🏢',
+    accent: 'from-indigo-600/30 to-violet-600/20',
+    badge: 'SaaS · Full-Stack',
+    demoNote: null,
+  },
+  {
     title: 'RenewalFlow',
     subtitle: 'Client & Contract Renewals Manager',
     description:
